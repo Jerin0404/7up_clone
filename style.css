@@ -1,0 +1,180 @@
+
+.body{
+    margin: 0;
+    height: 400px;
+}
+.navigation-bar{
+    display: flex;
+    width: 100%;
+    height: 105px;
+    background-color: rgb(246, 107, 107);
+    position: relative;
+    top: 0px;
+}
+.logo img{
+    height: 70px;
+    width: 65px;
+    padding: 10px 20px;
+}
+.list-items{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    left: 400px;
+    
+}
+.lists{
+    padding: 18px;
+    font-family: 'Arial';
+    
+}
+.lists a{
+    color: white;
+}
+.lists a:link{
+    text-decoration: none;
+}
+.lists a:hover{
+    text-decoration: underline;
+}
+.logo-items{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    margin: 20px 0;
+    left: 28%;
+    cursor: pointer;
+    padding-top: 5px;
+
+}
+.logo-lists a img{
+    width: 30px;
+    height: 30px;
+}
+.division1{
+    height: 580px;
+}
+.division1 img{
+    width: 100vw;
+}
+
+.child-div{
+    position: absolute;
+    top: 250px;
+    font-size: 3vw;
+    line-height: 1px;
+    margin-left: 79px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.child-div button{
+    padding: 5px 15px;
+    border-radius: 18px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+.division2{
+    height: 580px;
+}
+.division2 img{
+    width: 100vw;
+}
+
+.div2-child{
+    text-align: center;
+    position:relative;
+    bottom: 340px;
+    border: 2px solid black;
+    border-style: none;
+    border-radius: 90px;
+    margin: 0 300px;
+    background-color:rgba(10, 91, 43, .7);
+    padding-bottom: 35px;
+    color: white;
+}
+.div2-child h1{
+    font-family: Arial;
+    font-weight: lighter;
+    padding-top: 26px;
+}
+.div2-child p{
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.div2-child button{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: white;
+    background: transparent;
+    font-weight: 550;
+
+}
+
+.division3{
+    width: 100vw;
+}
+.div3-child{
+    text-align: center;
+    position:relative;
+    bottom: 340px;
+    border: 2px solid black;
+    border-style: none;
+    border-radius: 90px;
+    margin: 0 300px;
+    background-color:rgba(10, 91, 43, .7);
+    padding-bottom: 35px;
+    color: white;
+}
+.div3-child h1{
+    font-family: Arial;
+    font-weight: lighter;
+    padding-top: 26px;
+}
+
+.div3-child p{
+    font-family: Arial;
+    font-weight: 400;
+}
+.div3-child button{
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: white;
+    background: transparent;
+    font-weight: 550;
+}
+
+.footer{
+    position: absolute;
+    background-color: rgb(79, 70, 70);
+    top: 1850px;
+    width: 100vw;
+    height: 140px;
+}
+.footer-list{
+    display: inline-block;
+}
+.footer-list a{
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    padding: 0 13px;
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    left: 50px;
+}
+.footer-para{
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
